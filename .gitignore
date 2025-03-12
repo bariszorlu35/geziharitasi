@@ -1,0 +1,26 @@
+# IDE ve editör dosyaları
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
+
+# Log dosyaları
+*.log
+
+# Veritabanı dosyaları
+*.sql
+*.sqlite
+
+# Geçici dosyalar
+*.tmp
+*.temp
+
+# Resim dosyaları (eğer resimleri GitHub'a yüklemek istemiyorsanız)
+resimler/*
+galeri/*
+!resimler/.gitkeep
+!galeri/.gitkeep 

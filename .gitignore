@@ -1,26 +1,75 @@
 # IDE ve editör dosyaları
 .idea/
 .vscode/
-*.sublime-project
-*.sublime-workspace
+*.suo
+*.user
+*.sln
+
+# Bağımlılık klasörleri
+node_modules/
+vendor/
+
+# Ortam dosyaları
+.env
+.env.local
+
+# Log dosyaları
+*.log
 
 # Sistem dosyaları
 .DS_Store
 Thumbs.db
 
-# Log dosyaları
-*.log
-
-# Veritabanı dosyaları
-*.sql
-*.sqlite
+# Derlenmiş dosyalar
+*.class
+*.exe
+*.dll
+*.o
+*.so
+*.pyc
 
 # Geçici dosyalar
 *.tmp
 *.temp
 
-# Resim dosyaları (eğer resimleri GitHub'a yüklemek istemiyorsanız)
-resimler/*
-galeri/*
-!resimler/.gitkeep
-!galeri/.gitkeep 
+# Test dosyaları
+/test/
+/tests/
+
+# Cache ve önbellek dosyaları
+.cache/
+*.cache
+
+# Yedek dosyaları
+*.bak
+*.backup
+
+# Kullanıcıya özel dosyalar
+*.userprefs
+
+# Paket yöneticisi dosyaları
+package-lock.json
+yarn.lock
+
+# Composer dosyaları
+composer.lock
+/vendor/
+
+# Python sanal ortamları
+venv/
+env/
+
+# Veritabanı dosyaları
+*.sqlite
+*.db
+
+# Gizli dosyalar
+.*
+!.gitignore
+
+# Özel dosyalar (örneğin, geçici resimler)
+/temp/
+/tmp/
+
+
+
